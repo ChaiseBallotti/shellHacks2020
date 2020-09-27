@@ -1,0 +1,17 @@
+.Footer{
+    background: var(--grayBg);
+}
+
+.Footer_copyright{
+    color: var(--accentYellow);
+    font-size: 2rem;
+}
+
+.Footer_subTitle{
+    color: var(--accentBlue);
+    font-size: 3.2rem;
+}
+
+.Footer_socialItem{
+    color: var(--blueOpacity);
+}

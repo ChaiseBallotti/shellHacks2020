@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body onload="init()">
+        <div id = "pgMainMenu">
+            <h1 id = "headerTitle">Art Personality Quiz<font size = 1>&reg;</font></h1>
+            <h2 id = "tagline">Text about art...</h2>
+            <p id = "intro">
+                Is your art style classical or modern?
+            <h3 id = "quote">Take the quiz to find out!</h3>
+            <p id = "disclaimer"><font size = 1>Text about museums....</font></p>
+            <p id = "options:">
+                <label for="listOptions"><span id = "listOptionsText">Let's get started!:</span></label>
+                <ul id = "listOptions" style "list-style-type:circle">
+                    <li><button id="bStartQuiz" name="startQuiz" onclick="startQuiz()" label="Start">Start Quiz</button></li>
+                </ul></p>
+        </div>
+        <div id = "pgQuiz">
+            <p id="question">Question</p>
+            <p><input id="OptAnswer1" type="radio" name="answer" value="1"><label for="OptAnswer1"><span id = "answerPos1">Answer1</span></label></p>
+
+            <p><input id="OptAnswer2" type="radio" name="answer" value="2"><label for="OptAnswer2"><span id = "answerPos2">Answer2</span></label></p>
+                    
+            <p><input id="OptAnswer3" type="radio" name="answer" value="3"><label for="OptAnswer3"><span id = "answerPos3">Answer3</span></label></p>
+                    
+            <p><input id="OptAnswer4" type="radio" name="answer" value="4"><label for="OptAnswer4"><span id = "answerPos4">Answer4</span></label></p>
+            <button id="bSubmitAnswer" onclick="checkAnswer()">Submit Answer</button>
+            <button id="bResetQuiz" onclick="resetQuiz()">Cancel Quiz</button>
+        </div> 
+        <div id="QuizResults">
+            <h3><span>Quiz Results</span></h3>
+            <p id="ResultMessage">Your results are....</p>
+            <p id = "QuizScore">Final Score: 0</p>
+            <button id="bResetQuiz" onclick="resetQuiz()"> Main Menu </button>
+        </div>
+        <div id = "footer">
+            <span id="credits">~&copy; ShellHacks Group Members:........</span>
+        </div>
+    </body>
+</html>

@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Galleries For You</title>
+        <link rel="stylesheet" href="./styles/main.css">
         <script src="https://kit.fontawesome.com/ee8942593a.js" crossorigin="anonymous"></script>
     </head>
     <body id="home">
@@ -25,8 +26,8 @@
                 </div>
             </nav>
             <section calass="Header_content">
-                <h1>Galleries For You</h1>
-                <p>
+                <h1 class="Header_title">Galleries For You</h1>
+                <p class="Header_subTitle">
                     Here to help find 
                     <span class="Header_highlight">
                         <em>art that interest you</em>
@@ -35,6 +36,13 @@
             </section>
         </header>
         <main class="Main">
+            <section class="Quiz" id="quiz">
+                <h2 class="Quiz_take">Take our quiz to find the right art for you</h2>
+                <button>
+                    <a href="./quiz.html" class="Quiz_link">take quiz</a>
+                    
+                </button>
+            </section>
             <section class="Main_galleries" id="galleries">
                 <h4 class="Gallery_title">Galleries</h4>
                 <div class="Main_topGalleries">
@@ -42,8 +50,8 @@
                         <img src="./assets/Random_gallery_one.jpg" alt="Gallery one Image" class="Main_galleryImg" width="320">
                     </div>
                     <div class="Main_topGalleriesContent">
-                        <h3 class="Gallery_title"><strong>Gallery One name</strong></h3>
-                    <p class="GalleryInfo">
+                        <h3 class="Gallery_subTitle"><strong>Gallery One name</strong></h3>
+                    <p class="Gallery_info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -55,8 +63,8 @@
                         <img src="./assets/Random_gallery_two.jpg" alt="Gallery two Image" class="Main_galleryImg" width="320">
                     </div>
                     <div class="Main_topGalleriesContent">
-                        <h3 class="Gallery_title"><strong>Gallery Two name</strong></h3>
-                    <p class="GalleryInfo">
+                        <h3 class="Gallery_subTitle"><strong>Gallery Two name</strong></h3>
+                    <p class="Gallery_info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -68,8 +76,8 @@
                         <img src="./assets/Random_gallery_Three.jpg" alt="Gallery Three Image" class="Main_galleryImg" width="320"> 
                     </div>
                     <div class="Main_topGalleriesContent">
-                        <h3 class="Gallery_title"><strong>Gallery Three name</strong></h3>
-                    <p class="GalleryInfo">
+                        <h3 class="Gallery_SubTitle"><strong>Gallery Three name</strong></h3>
+                    <p class="Gallery_info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -81,8 +89,8 @@
                         <img src="./assets/Random_Gallery_four.jpg" alt="Gallery Four Image" class="Main_galleryImg" width="320">
                     </div>
                     <div class="Main_topGalleriesContent">
-                        <h3 class="Gallery_title"><strong>Gallery Four name</strong></h3>
-                    <p class="GalleryInfo">
+                        <h3 class="Gallery_subTitle"><strong>Gallery Four name</strong></h3>
+                    <p class="Gallery_info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -94,8 +102,8 @@
                         <img src="./assets/Random_Gallery_Five.jpg" alt="Gallery Five Image" class="Main_galleryImg" width="320">
                     </div>
                     <div class="Main_topGalleriesContent">
-                        <h3 class="Gallery_title"><strong>Gallery Five name</strong></h3>
-                    <p class="GalleryInfo">
+                        <h3 class="Gallery_subTitle"><strong>Gallery Five name</strong></h3>
+                    <p class="Gallery_info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -112,35 +120,35 @@
                         and match them with art that they might prefer.
                     </p>
                     <h3 class="About_studentOne">Chaise Ballotti</h3>
-                    <div class="About_imgChaiseContainer">
-                        <img src="./assets/Pic of me.PNG" alt="Picture of Chaise" class="About_imgChaise" width="320">
+                    <div class="About_imgContainer">
+                        <img src="./assets/Pic of me.PNG" alt="Picture of Chaise" class="About_img" width="320">
                     </div>
-                    <div class="About_bioChaise">
-                        <p class="About_chaise">
+                    <div class="About_bioContent">
+                        <p class="About_info">
                             I am a Software Engineer at FGCU expecting to Graduate May 2022. I am looking for a software engineering intership for summer 2021.
                         </p>
                     </div>
                     <h3 class="About_studentTwo">Amber Imani Snelling</h3>
-                    <div class="About_imgAmberContainer">
-                        <img src="./assets/Amber_Snelling.jpg" alt="Picture of Amber" class="About_imgAmber" width="320">
+                    <div class="About_imgContainer">
+                        <img src="./assets/Amber_Snelling.jpg" alt="Picture of Amber" class="About_img" width="320">
                     </div>
-                    <div class="About_bioAmber">
-                        <p class="About_Amber">
+                    <div class="About_bioContent">
+                        <p class="About_info">
                             Florida International University, Sophomore, BS in computer Science aspiring to become a software engineer.
                         </p>
                     </div>
                     <h3 class="About_studentThree">Student</h3>
-                    <div class="About_imgStudentContainer">
-                        <img src="./assets/fill.jpg" alt="Picture of Student" class="About_imgStudent" width="320">
+                    <div class="About_imgContainer">
+                        <img src="./assets/fill.jpg" alt="Picture of Student" class="About_img" width="320">
                     </div>
-                    <div class="About_bioStudent">
-                        <p class="About_student">
+                    <div class="About_bioContent">
+                        <p class="About_info">
                             This is her about section
                         </p>
                     </div>
                 </div>
             </section>
-            <section class="Main_contact" id="contact">
+            <section class="Contact" id="contact">
                 <h4 class="Contact_title">Contact</h4>
                 <h2 class="Contact_subTitle">Get in Touch</h2>
                 <div class="Contact_formContainer">
@@ -171,7 +179,7 @@
         <footer class="Footer">
             <section class="Footer_content">
                 <p class="Footer_copyright">&copy; 2020 Developed by Chaise Ballotti and Amber Imani snelling</p>
-                <p class="Footer_text">below are the Linkedin profiles to everyone that contributed to the project</p>
+                <p class="Footer_subTitle">below are the Linkedin profiles to everyone that contributed to the project</p>
                 <ul class="footer_socialList">
                     <li class="footer_socialItem"><a href="https://www.linkedin.com/in/chaise-ballotti-1aa575184/" class="Footer_ChaiseLinkedin" target="_blank">
                         <i class="fab fa-linkedin-in"></i>

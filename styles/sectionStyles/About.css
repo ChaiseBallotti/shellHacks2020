@@ -1,0 +1,40 @@
+.Main_about{
+    padding: 2.1rem 0;
+
+}
+
+.About_title{
+    color: var(--accentYellow);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: 95%;
+    margin: 2.1rem auto 1rem;
+}
+
+.About_imgContainer{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about_img{
+    width: 100%;
+}
+
+.About_subTitle{
+    color: var(--accentBlue);
+    font-size: 3.2rem;
+    width: 95%;
+    margin: 0 auto 2.1rem;
+}
+
+.About_info{
+    color: var(--blueOpacity);
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+.About_bioContent{
+    width: 95%;
+    margin: 0 auto;
+}
